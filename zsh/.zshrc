@@ -50,6 +50,7 @@ if command -v nvim > /dev/null; then
     # Git commit using nvim
     export GIT_EDITOR='nvim'
 
+    alias nano='nvim'
     # Man pager using nvim
     export MANPAGER='nvim +Man!'
 else
