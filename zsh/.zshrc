@@ -198,7 +198,6 @@ if command -v fzf > /dev/null; then
     bindkey '^R' fzf-history-widget
 fi
 
-export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 fastfetch
