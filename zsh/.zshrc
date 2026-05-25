@@ -87,7 +87,7 @@ alias cat='bat -p --theme="OneHalfDark"'
 alias less='bat --paging=always'
 alias grep='rg --color=auto --engine=auto'
 alias find='fd'  # If fd is installed
-alias du='dust'
+alias du='dust -X /tmp'
 alias df='duf'
 alias ps='procs'
 alias top='btop'
@@ -199,5 +199,6 @@ if command -v fzf > /dev/null; then
 fi
 
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$PATH"
 
 fastfetch

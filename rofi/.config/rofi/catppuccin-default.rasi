@@ -23,7 +23,7 @@
   background:                  @base;
   selected-active-background:  @blue;
   active-background:           @background;
-  selected-normal-background:  @lightfg;
+  selected-normal-background:  @lavender;
   alternate-normal-background: @lightbg;
   foreground:                  @text;
   selected-urgent-foreground:  @background;
@@ -31,6 +31,7 @@
   alternate-urgent-foreground: @red;
   alternate-active-foreground: @blue;
   highlight:                   @mauve;
+  search-highlight:            @red;
 }
 element {
     padding: 1px ;
@@ -78,7 +79,7 @@ element alternate.active {
 element-text {
     background-color: transparent;
     cursor:           inherit;
-    highlight:        inherit;
+    highlight:        @search-highlight;
     text-color:       inherit;
 }
 element-icon {
